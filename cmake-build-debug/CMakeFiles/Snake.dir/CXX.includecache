@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Phoebe/Documents/Programming/C++/Snake/main.cpp
+iostream
+-
+SFML/Graphics.hpp
+/Users/Phoebe/Documents/Programming/C++/Snake/SFML/Graphics.hpp
+
