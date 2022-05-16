@@ -105,11 +105,53 @@ CMakeFiles/Snake.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/Window.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Phoebe/Documents/Programming/C++/Snake/Window.cpp -o CMakeFiles/Snake.dir/Window.cpp.s
 
+CMakeFiles/Snake.dir/Rectangle.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/Rectangle.cpp.o: ../Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Snake.dir/Rectangle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/Rectangle.cpp.o -c /Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.cpp
+
+CMakeFiles/Snake.dir/Rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/Rectangle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.cpp > CMakeFiles/Snake.dir/Rectangle.cpp.i
+
+CMakeFiles/Snake.dir/Rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/Rectangle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.cpp -o CMakeFiles/Snake.dir/Rectangle.cpp.s
+
+CMakeFiles/Snake.dir/Snake.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/Snake.cpp.o: ../Snake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Snake.dir/Snake.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/Snake.cpp.o -c /Users/Phoebe/Documents/Programming/C++/Snake/Snake.cpp
+
+CMakeFiles/Snake.dir/Snake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/Snake.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Phoebe/Documents/Programming/C++/Snake/Snake.cpp > CMakeFiles/Snake.dir/Snake.cpp.i
+
+CMakeFiles/Snake.dir/Snake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/Snake.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Phoebe/Documents/Programming/C++/Snake/Snake.cpp -o CMakeFiles/Snake.dir/Snake.cpp.s
+
+CMakeFiles/Snake.dir/GameObject.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/GameObject.cpp.o: ../GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Snake.dir/GameObject.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/GameObject.cpp.o -c /Users/Phoebe/Documents/Programming/C++/Snake/GameObject.cpp
+
+CMakeFiles/Snake.dir/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/GameObject.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Phoebe/Documents/Programming/C++/Snake/GameObject.cpp > CMakeFiles/Snake.dir/GameObject.cpp.i
+
+CMakeFiles/Snake.dir/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/GameObject.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Phoebe/Documents/Programming/C++/Snake/GameObject.cpp -o CMakeFiles/Snake.dir/GameObject.cpp.s
+
 # Object files for target Snake
 Snake_OBJECTS = \
 "CMakeFiles/Snake.dir/main.cpp.o" \
 "CMakeFiles/Snake.dir/Game.cpp.o" \
-"CMakeFiles/Snake.dir/Window.cpp.o"
+"CMakeFiles/Snake.dir/Window.cpp.o" \
+"CMakeFiles/Snake.dir/Rectangle.cpp.o" \
+"CMakeFiles/Snake.dir/Snake.cpp.o" \
+"CMakeFiles/Snake.dir/GameObject.cpp.o"
 
 # External object files for target Snake
 Snake_EXTERNAL_OBJECTS =
@@ -117,13 +159,16 @@ Snake_EXTERNAL_OBJECTS =
 Snake: CMakeFiles/Snake.dir/main.cpp.o
 Snake: CMakeFiles/Snake.dir/Game.cpp.o
 Snake: CMakeFiles/Snake.dir/Window.cpp.o
+Snake: CMakeFiles/Snake.dir/Rectangle.cpp.o
+Snake: CMakeFiles/Snake.dir/Snake.cpp.o
+Snake: CMakeFiles/Snake.dir/GameObject.cpp.o
 Snake: CMakeFiles/Snake.dir/build.make
 Snake: /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics
 Snake: /Library/Frameworks/./sfml-audio.framework/Versions/2.5.1/sfml-audio
 Snake: /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window
 Snake: /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system
 Snake: CMakeFiles/Snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Snake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Snake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Snake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,7 +6,10 @@
 #define SNAKE_GAME_H
 
 #include <string>
+#include <vector>
 #include "Window.h"
+
+class GameObject;
 
 class Game {
 public:
@@ -14,10 +17,13 @@ public:
     ~Game();
 
     void Start();
+    GameObject *AddGameObject(GameObject *gameObject);
 private:
     void Loop();
+    void DrawGameObjects();
 
     Window *m_window;
+    std::vector<GameObject *> m_gameObjects;
 };
 
 

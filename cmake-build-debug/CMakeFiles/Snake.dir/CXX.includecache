@@ -9,12 +9,40 @@
 /Users/Phoebe/Documents/Programming/C++/Snake/Game.cpp
 Game.h
 /Users/Phoebe/Documents/Programming/C++/Snake/Game.h
+GameObject.h
+/Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h
+iostream
+-
 
 /Users/Phoebe/Documents/Programming/C++/Snake/Game.h
 string
 -
+vector
+-
 Window.h
 /Users/Phoebe/Documents/Programming/C++/Snake/Window.h
+
+/Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h
+
+/Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.h
+SFML/Graphics.hpp
+-
+
+/Users/Phoebe/Documents/Programming/C++/Snake/Snake.cpp
+Snake.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Snake.h
+Rectangle.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.h
+Window.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Window.h
+
+/Users/Phoebe/Documents/Programming/C++/Snake/Snake.h
+vector
+-
+SFML/Graphics.hpp
+-
+GameObject.h
+/Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h
 
 /Users/Phoebe/Documents/Programming/C++/Snake/Window.cpp
 Window.h
@@ -31,4 +59,6 @@ SFML/Graphics.hpp
 /Users/Phoebe/Documents/Programming/C++/Snake/SFML/Graphics.hpp
 Game.h
 /Users/Phoebe/Documents/Programming/C++/Snake/Game.h
+Snake.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Snake.h
 

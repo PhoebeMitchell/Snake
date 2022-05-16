@@ -96,6 +96,24 @@
 		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Game.h">
 			<Option target="Snake"/>
 		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/GameObject.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.h">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Snake.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Snake.h">
+			<Option target="Snake"/>
+		</Unit>
 		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Window.cpp">
 			<Option target="Snake"/>
 		</Unit>

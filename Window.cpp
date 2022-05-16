@@ -22,9 +22,16 @@ void Window::PollEvents() {
     }
 
     m_renderWindow->clear(sf::Color::Black);
-    m_renderWindow->display();
 }
 
 bool Window::GetIsOpen() {
     return m_renderWindow->isOpen();
+}
+
+void Window::Draw(sf::Drawable *drawable) {
+    m_renderWindow->draw(*drawable);
+}
+
+void Window::Display() {
+    m_renderWindow->display();
 }

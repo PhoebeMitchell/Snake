@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Phoebe/Documents/Programming/C++/Snake/Game.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-debug/CMakeFiles/Snake.dir/Game.cpp.o"
+  "/Users/Phoebe/Documents/Programming/C++/Snake/GameObject.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-debug/CMakeFiles/Snake.dir/GameObject.cpp.o"
+  "/Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-debug/CMakeFiles/Snake.dir/Rectangle.cpp.o"
+  "/Users/Phoebe/Documents/Programming/C++/Snake/Snake.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-debug/CMakeFiles/Snake.dir/Snake.cpp.o"
   "/Users/Phoebe/Documents/Programming/C++/Snake/Window.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-debug/CMakeFiles/Snake.dir/Window.cpp.o"
   "/Users/Phoebe/Documents/Programming/C++/Snake/main.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-debug/CMakeFiles/Snake.dir/main.cpp.o"
   )

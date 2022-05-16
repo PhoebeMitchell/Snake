@@ -4,11 +4,26 @@
 CMakeFiles/Snake.dir/Game.cpp.o
  /Users/Phoebe/Documents/Programming/C++/Snake/Game.cpp
  /Users/Phoebe/Documents/Programming/C++/Snake/Game.h
+ /Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h
+ /Users/Phoebe/Documents/Programming/C++/Snake/Window.h
+CMakeFiles/Snake.dir/GameObject.cpp.o
+ /Users/Phoebe/Documents/Programming/C++/Snake/GameObject.cpp
+ /Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h
+CMakeFiles/Snake.dir/Rectangle.cpp.o
+ /Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.cpp
+ /Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.h
+CMakeFiles/Snake.dir/Snake.cpp.o
+ /Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h
+ /Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.h
+ /Users/Phoebe/Documents/Programming/C++/Snake/Snake.cpp
+ /Users/Phoebe/Documents/Programming/C++/Snake/Snake.h
  /Users/Phoebe/Documents/Programming/C++/Snake/Window.h
 CMakeFiles/Snake.dir/Window.cpp.o
  /Users/Phoebe/Documents/Programming/C++/Snake/Window.cpp
  /Users/Phoebe/Documents/Programming/C++/Snake/Window.h
 CMakeFiles/Snake.dir/main.cpp.o
  /Users/Phoebe/Documents/Programming/C++/Snake/Game.h
+ /Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h
+ /Users/Phoebe/Documents/Programming/C++/Snake/Snake.h
  /Users/Phoebe/Documents/Programming/C++/Snake/Window.h
  /Users/Phoebe/Documents/Programming/C++/Snake/main.cpp

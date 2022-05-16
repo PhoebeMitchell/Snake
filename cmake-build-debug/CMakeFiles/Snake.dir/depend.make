@@ -4,11 +4,26 @@
 CMakeFiles/Snake.dir/Game.cpp.o: \
  ../Game.cpp \
  ../Game.h \
+ ../GameObject.h \
+ ../Window.h
+CMakeFiles/Snake.dir/GameObject.cpp.o: \
+ ../GameObject.cpp \
+ ../GameObject.h
+CMakeFiles/Snake.dir/Rectangle.cpp.o: \
+ ../Rectangle.cpp \
+ ../Rectangle.h
+CMakeFiles/Snake.dir/Snake.cpp.o: \
+ ../GameObject.h \
+ ../Rectangle.h \
+ ../Snake.cpp \
+ ../Snake.h \
  ../Window.h
 CMakeFiles/Snake.dir/Window.cpp.o: \
  ../Window.cpp \
  ../Window.h
 CMakeFiles/Snake.dir/main.cpp.o: \
  ../Game.h \
+ ../GameObject.h \
+ ../Snake.h \
  ../Window.h \
  ../main.cpp

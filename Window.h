@@ -9,6 +9,7 @@
 
 namespace sf {
     class RenderWindow;
+    class Drawable;
 }
 
 class Window {
@@ -18,6 +19,8 @@ public:
 
     void PollEvents();
     bool GetIsOpen();
+    void Draw(sf::Drawable *drawable);
+    void Display();
 private:
     sf::RenderWindow *m_renderWindow;
 };
