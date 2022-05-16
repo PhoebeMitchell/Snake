@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/Phoebe/Documents/Programming/C++/Snake/Game.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles/Snake.dir/Game.cpp.o"
+  "/Users/Phoebe/Documents/Programming/C++/Snake/Window.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles/Snake.dir/Window.cpp.o"
   "/Users/Phoebe/Documents/Programming/C++/Snake/main.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles/Snake.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

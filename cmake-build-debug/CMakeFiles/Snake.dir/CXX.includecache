@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/Phoebe/Documents/Programming/C++/Snake/main.cpp
-iostream
+/Users/Phoebe/Documents/Programming/C++/Snake/Game.cpp
+Game.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Game.h
+
+/Users/Phoebe/Documents/Programming/C++/Snake/Game.h
+string
 -
+Window.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Window.h
+
+/Users/Phoebe/Documents/Programming/C++/Snake/Window.cpp
+Window.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Window.h
+SFML/Graphics.hpp
+-
+
+/Users/Phoebe/Documents/Programming/C++/Snake/Window.h
+string
+-
+
+/Users/Phoebe/Documents/Programming/C++/Snake/main.cpp
 SFML/Graphics.hpp
 /Users/Phoebe/Documents/Programming/C++/Snake/SFML/Graphics.hpp
+Game.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Game.h
 
