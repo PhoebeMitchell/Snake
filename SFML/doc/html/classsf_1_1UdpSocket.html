@@ -147,10 +147,10 @@ Protected Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Specialized socket using the UDP protocol. </p>
 <p>A UDP socket is a connectionless socket.</p>
-<p>Instead of connecting once to a remote host, like TCP sockets, it can send to and receive from any host at any time.</p>
+<p>Instead of connecting once to a remote host, like TCP sockets, it can send to and receive from any host at any m_time.</p>
 <p>It is a datagram protocol: bounded blocks of data (datagrams) are transfered over the network rather than a continuous stream of data (TCP). Therefore, one call to send will always match one call to receive (if the datagram is not lost), with the same data that was sent.</p>
 <p>The UDP protocol is lightweight but unreliable. Unreliable means that datagrams may be duplicated, be lost or arrive reordered. However, if a datagram arrives, its data is guaranteed to be valid.</p>
-<p>UDP is generally used for real-time communication (audio or video streaming, real-time games, etc.) where speed is crucial and lost data doesn't matter much.</p>
+<p>UDP is generally used for real-m_time communication (audio or video streaming, real-m_time games, etc.) where speed is crucial and lost data doesn't matter much.</p>
 <p>Sending and receiving data can use either the low-level or the high-level functions. The low-level functions process a raw sequence of bytes, whereas the high-level interface uses packets (see <a class="el" href="classsf_1_1Packet.html" title="Utility class to build blocks of data to transfer over the network. ">sf::Packet</a>), which are easier to use and provide more safety regarding the data that is exchanged. You can look at the <a class="el" href="classsf_1_1Packet.html" title="Utility class to build blocks of data to transfer over the network. ">sf::Packet</a> class to get more details about how they work.</p>
 <p>It is important to note that <a class="el" href="classsf_1_1UdpSocket.html" title="Specialized socket using the UDP protocol. ">UdpSocket</a> is unable to send datagrams bigger than MaxDatagramSize. In this case, it returns an error and doesn't send anything. This applies to both raw data and packets. Indeed, even packets are unable to split and recompose data, due to the unreliability of the protocol (dropped, mixed or duplicated datagrams may lead to a big mess when trying to recompose a packet).</p>
 <p>If the socket is bound to a port, it is automatically unbound from it when the socket is destroyed. However, you can unbind the socket explicitly with the Unbind function if necessary, to stop receiving messages or make the port available for other sockets.</p>
@@ -772,7 +772,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Unbind the socket from the local port to which it is bound. </p>
-<p>The port that the socket was previously bound to is immediately made available to the operating system after this function is called. This means that a subsequent call to <a class="el" href="classsf_1_1UdpSocket.html#ad764c3d06d90b4714dcc97a0d1647bcc" title="Bind the socket to a specific port. ">bind()</a> will be able to re-bind the port if no other process has done so in the mean time. If the socket is not bound to a port, this function has no effect.</p>
+<p>The port that the socket was previously bound to is immediately made available to the operating system after this function is called. This means that a subsequent call to <a class="el" href="classsf_1_1UdpSocket.html#ad764c3d06d90b4714dcc97a0d1647bcc" title="Bind the socket to a specific port. ">bind()</a> will be able to re-bind the port if no other process has done so in the mean m_time. If the socket is not bound to a port, this function has no effect.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classsf_1_1UdpSocket.html#ad764c3d06d90b4714dcc97a0d1647bcc" title="Bind the socket to a specific port. ">bind</a> </dd></dl>
 
 </div>

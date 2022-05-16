@@ -10,6 +10,7 @@
 #include "Window.h"
 
 class GameObject;
+class Time;
 
 class Game {
 public:
@@ -20,6 +21,7 @@ public:
     GameObject *AddGameObject(GameObject *gameObject);
 private:
     void Loop();
+    void UpdateGameObjects();
     void DrawGameObjects();
 
     Window *m_window;

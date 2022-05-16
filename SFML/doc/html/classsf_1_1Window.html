@@ -351,7 +351,7 @@ Static Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Close the window and destroy all the attached resources. </p>
-<p>After calling this function, the <a class="el" href="classsf_1_1Window.html" title="Window that serves as a target for OpenGL rendering. ">sf::Window</a> instance remains valid and you can call <a class="el" href="classsf_1_1Window.html#a30e6edf2162f8dbff61023b9de5d961d" title="Create (or recreate) the window. ">create()</a> to recreate the window. All other functions such as <a class="el" href="classsf_1_1Window.html#a338e996585faf82e93069858e3b531b7" title="Pop the event on top of the event queue, if any, and return it. ">pollEvent()</a> or <a class="el" href="classsf_1_1Window.html#adabf839cb103ac96cfc82f781638772a" title="Display on screen what has been rendered to the window so far. ">display()</a> will still work (i.e. you don't have to test <a class="el" href="classsf_1_1Window.html#ae873503db7d48157bb9cbf6129562bce" title="Tell whether or not the window is open. ">isOpen()</a> every time), and will have no effect on closed windows. </p>
+<p>After calling this function, the <a class="el" href="classsf_1_1Window.html" title="Window that serves as a target for OpenGL rendering. ">sf::Window</a> instance remains valid and you can call <a class="el" href="classsf_1_1Window.html#a30e6edf2162f8dbff61023b9de5d961d" title="Create (or recreate) the window. ">create()</a> to recreate the window. All other functions such as <a class="el" href="classsf_1_1Window.html#a338e996585faf82e93069858e3b531b7" title="Pop the event on top of the event queue, if any, and return it. ">pollEvent()</a> or <a class="el" href="classsf_1_1Window.html#adabf839cb103ac96cfc82f781638772a" title="Display on screen what has been rendered to the window so far. ">display()</a> will still work (i.e. you don't have to test <a class="el" href="classsf_1_1Window.html#ae873503db7d48157bb9cbf6129562bce" title="Tell whether or not the window is open. ">isOpen()</a> every m_time), and will have no effect on closed windows. </p>
 
 </div>
 </div>
@@ -568,7 +568,7 @@ Static Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check whether the window has the input focus. </p>
-<p>At any given time, only one window may have the input focus to receive input events such as keystrokes or most mouse events.</p>
+<p>At any given m_time, only one window may have the input focus to receive input events such as keystrokes or most mouse events.</p>
 <dl class="section return"><dt>Returns</dt><dd>True if window has focus, false otherwise </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classsf_1_1Window.html#a58cf7fa1775e8e7542032e3ecfa83b49" title="Request the current window to be made the active foreground window. ">requestFocus</a> </dd></dl>
 
@@ -699,7 +699,7 @@ Static Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Request the current window to be made the active foreground window. </p>
-<p>At any given time, only one window may have the input focus to receive input events such as keystrokes or mouse events. If a window requests focus, it only hints to the operating system, that it would like to be focused. The operating system is free to deny the request. This is not to be confused with <a class="el" href="classsf_1_1Window.html#aaab549da64cedf74fa6f1ae7a3cc79e0" title="Activate or deactivate the window as the current target for OpenGL rendering. ">setActive()</a>.</p>
+<p>At any given m_time, only one window may have the input focus to receive input events such as keystrokes or mouse events. If a window requests focus, it only hints to the operating system, that it would like to be focused. The operating system is free to deny the request. This is not to be confused with <a class="el" href="classsf_1_1Window.html#aaab549da64cedf74fa6f1ae7a3cc79e0" title="Activate or deactivate the window as the current target for OpenGL rendering. ">setActive()</a>.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classsf_1_1Window.html#ad8db2e6500d13ca9396281296404ba31" title="Check whether the window has the input focus. ">hasFocus</a> </dd></dl>
 
 </div>
@@ -721,7 +721,7 @@ Static Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Activate or deactivate the window as the current target for OpenGL rendering. </p>
-<p>A window is active only on the current thread, if you want to make it active on another thread you have to deactivate it on the previous thread first if it was active. Only one window can be active on a thread at a time, thus the window previously active (if any) automatically gets deactivated. This is not to be confused with <a class="el" href="classsf_1_1Window.html#a58cf7fa1775e8e7542032e3ecfa83b49" title="Request the current window to be made the active foreground window. ">requestFocus()</a>.</p>
+<p>A window is active only on the current thread, if you want to make it active on another thread you have to deactivate it on the previous thread first if it was active. Only one window can be active on a thread at a m_time, thus the window previously active (if any) automatically gets deactivated. This is not to be confused with <a class="el" href="classsf_1_1Window.html#a58cf7fa1775e8e7542032e3ecfa83b49" title="Request the current window to be made the active foreground window. ">requestFocus()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">active</td><td>True to activate, false to deactivate</td></tr>

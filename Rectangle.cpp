@@ -9,8 +9,8 @@ Rectangle::Rectangle(int width, int height, sf::Color color) {
     m_rectangleShape->setFillColor(color);
 }
 
-void Rectangle::SetPosition(int x, int y) {
-    m_rectangleShape->setPosition(x, y);
+void Rectangle::SetPosition(sf::Vector2i position) {
+    m_rectangleShape->setPosition(position.x, position.y);
 }
 
 Rectangle::~Rectangle() {
@@ -19,4 +19,8 @@ Rectangle::~Rectangle() {
 
 sf::RectangleShape *Rectangle::GetRectangleShape() {
     return m_rectangleShape;
+}
+
+sf::Vector2i Rectangle::GetPosition() {
+    return sf::Vector2i(m_rectangleShape->getPosition());
 }

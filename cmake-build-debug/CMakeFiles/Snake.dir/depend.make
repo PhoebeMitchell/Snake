@@ -5,6 +5,7 @@ CMakeFiles/Snake.dir/Game.cpp.o: \
  ../Game.cpp \
  ../Game.h \
  ../GameObject.h \
+ ../Time.h \
  ../Window.h
 CMakeFiles/Snake.dir/GameObject.cpp.o: \
  ../GameObject.cpp \
@@ -17,7 +18,11 @@ CMakeFiles/Snake.dir/Snake.cpp.o: \
  ../Rectangle.h \
  ../Snake.cpp \
  ../Snake.h \
+ ../Time.h \
  ../Window.h
+CMakeFiles/Snake.dir/Time.cpp.o: \
+ ../Time.cpp \
+ ../Time.h
 CMakeFiles/Snake.dir/Window.cpp.o: \
  ../Window.cpp \
  ../Window.h

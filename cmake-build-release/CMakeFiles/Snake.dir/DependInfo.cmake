@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Phoebe/Documents/Programming/C++/Snake/GameObject.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles/Snake.dir/GameObject.cpp.o"
   "/Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles/Snake.dir/Rectangle.cpp.o"
   "/Users/Phoebe/Documents/Programming/C++/Snake/Snake.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles/Snake.dir/Snake.cpp.o"
+  "/Users/Phoebe/Documents/Programming/C++/Snake/Time.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles/Snake.dir/Time.cpp.o"
   "/Users/Phoebe/Documents/Programming/C++/Snake/Window.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles/Snake.dir/Window.cpp.o"
   "/Users/Phoebe/Documents/Programming/C++/Snake/main.cpp" "/Users/Phoebe/Documents/Programming/C++/Snake/cmake-build-release/CMakeFiles/Snake.dir/main.cpp.o"
   )

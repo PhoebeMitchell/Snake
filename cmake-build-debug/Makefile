@@ -225,6 +225,30 @@ Snake.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Snake.cpp.s
 .PHONY : Snake.cpp.s
 
+Time.o: Time.cpp.o
+.PHONY : Time.o
+
+# target to build an object file
+Time.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Time.cpp.o
+.PHONY : Time.cpp.o
+
+Time.i: Time.cpp.i
+.PHONY : Time.i
+
+# target to preprocess a source file
+Time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Time.cpp.i
+.PHONY : Time.cpp.i
+
+Time.s: Time.cpp.s
+.PHONY : Time.s
+
+# target to generate assembly for a file
+Time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Time.cpp.s
+.PHONY : Time.cpp.s
+
 Window.o: Window.cpp.o
 .PHONY : Window.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... Snake.o"
 	@echo "... Snake.i"
 	@echo "... Snake.s"
+	@echo "... Time.o"
+	@echo "... Time.i"
+	@echo "... Time.s"
 	@echo "... Window.o"
 	@echo "... Window.i"
 	@echo "... Window.s"

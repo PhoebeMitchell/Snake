@@ -133,7 +133,7 @@ Also available on the website: https://www.sfml-dev.org/changelog.php#sfml-2.5.0
   * Fixed strict aliasing punning warning when generating the key of a glyph in Font.cpp (#1187, #1396)
   * Fixed OpenGL version string being parsed incorrectly on some platforms (#1249, #1390)
   * [macOS] Worked around render target bug (#1132, #1342)
-  * [Windows] Replaced time-based joystick poll with a hardware event handler (#1179, #1195, #1198, #1199, #1421)
+  * [Windows] Replaced m_time-based joystick poll with a hardware event handler (#1179, #1195, #1198, #1199, #1421)
 
 ### Audio
 

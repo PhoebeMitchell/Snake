@@ -114,6 +114,12 @@
 		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Snake.h">
 			<Option target="Snake"/>
 		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Time.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Time.h">
+			<Option target="Snake"/>
+		</Unit>
 		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Window.cpp">
 			<Option target="Snake"/>
 		</Unit>

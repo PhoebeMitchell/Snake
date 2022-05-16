@@ -10,6 +10,7 @@ class Window;
 class GameObject {
 public:
     virtual void Draw(Window *window) = 0;
+    virtual void Update() = 0;
 };
 
 

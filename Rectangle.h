@@ -13,7 +13,8 @@ public:
     ~Rectangle();
 
     sf::RectangleShape *GetRectangleShape();
-    void SetPosition(int x, int y);
+    sf::Vector2i GetPosition();
+    void SetPosition(sf::Vector2i position);
 private:
     sf::RectangleShape *m_rectangleShape;
 };
