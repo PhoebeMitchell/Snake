@@ -47,3 +47,7 @@ void Game::DrawGameObjects() {
         gameObject->Draw(m_window);
     }
 }
+
+Input *Game::GetInput() {
+    return m_window->GetInput();
+}

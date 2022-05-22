@@ -129,6 +129,30 @@ Snake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/build
 .PHONY : Snake/fast
 
+Food.o: Food.cpp.o
+.PHONY : Food.o
+
+# target to build an object file
+Food.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Food.cpp.o
+.PHONY : Food.cpp.o
+
+Food.i: Food.cpp.i
+.PHONY : Food.i
+
+# target to preprocess a source file
+Food.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Food.cpp.i
+.PHONY : Food.cpp.i
+
+Food.s: Food.cpp.s
+.PHONY : Food.s
+
+# target to generate assembly for a file
+Food.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Food.cpp.s
+.PHONY : Food.cpp.s
+
 Game.o: Game.cpp.o
 .PHONY : Game.o
 
@@ -176,6 +200,30 @@ GameObject.s: GameObject.cpp.s
 GameObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
+
+Input.o: Input.cpp.o
+.PHONY : Input.o
+
+# target to build an object file
+Input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Input.cpp.o
+.PHONY : Input.cpp.o
+
+Input.i: Input.cpp.i
+.PHONY : Input.i
+
+# target to preprocess a source file
+Input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Input.cpp.i
+.PHONY : Input.cpp.i
+
+Input.s: Input.cpp.s
+.PHONY : Input.s
+
+# target to generate assembly for a file
+Input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/Input.cpp.s
+.PHONY : Input.cpp.s
 
 Rectangle.o: Rectangle.cpp.o
 .PHONY : Rectangle.o
@@ -306,12 +354,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Snake"
+	@echo "... Food.o"
+	@echo "... Food.i"
+	@echo "... Food.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
 	@echo "... GameObject.o"
 	@echo "... GameObject.i"
 	@echo "... GameObject.s"
+	@echo "... Input.o"
+	@echo "... Input.i"
+	@echo "... Input.s"
 	@echo "... Rectangle.o"
 	@echo "... Rectangle.i"
 	@echo "... Rectangle.s"

@@ -90,6 +90,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Food.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Food.h">
+			<Option target="Snake"/>
+		</Unit>
 		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Game.cpp">
 			<Option target="Snake"/>
 		</Unit>
@@ -100,6 +106,12 @@
 			<Option target="Snake"/>
 		</Unit>
 		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Input.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Input.h">
 			<Option target="Snake"/>
 		</Unit>
 		<Unit filename="/Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.cpp">

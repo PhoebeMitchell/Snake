@@ -6,15 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/Phoebe/Documents/Programming/C++/Snake/Game.h
-string
+/Users/Phoebe/Documents/Programming/C++/Snake/Food.cpp
+SFML/Graphics.hpp
 -
-vector
--
+Food.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Food.h
+Rectangle.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.h
 Window.h
 /Users/Phoebe/Documents/Programming/C++/Snake/Window.h
+Snake.h
+/Users/Phoebe/Documents/Programming/C++/Snake/Snake.h
+iostream
+-
+
+/Users/Phoebe/Documents/Programming/C++/Snake/Food.h
+GameObject.h
+/Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h
 
 /Users/Phoebe/Documents/Programming/C++/Snake/GameObject.h
+
+/Users/Phoebe/Documents/Programming/C++/Snake/Rectangle.h
+SFML/Graphics.hpp
+-
 
 /Users/Phoebe/Documents/Programming/C++/Snake/Snake.h
 vector
@@ -27,12 +41,4 @@ GameObject.h
 /Users/Phoebe/Documents/Programming/C++/Snake/Window.h
 string
 -
-
-/Users/Phoebe/Documents/Programming/C++/Snake/main.cpp
-SFML/Graphics.hpp
-/Users/Phoebe/Documents/Programming/C++/Snake/SFML/Graphics.hpp
-Game.h
-/Users/Phoebe/Documents/Programming/C++/Snake/Game.h
-Snake.h
-/Users/Phoebe/Documents/Programming/C++/Snake/Snake.h
 

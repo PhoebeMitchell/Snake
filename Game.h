@@ -11,6 +11,7 @@
 
 class GameObject;
 class Time;
+class Input;
 
 class Game {
 public:
@@ -19,6 +20,7 @@ public:
 
     void Start();
     GameObject *AddGameObject(GameObject *gameObject);
+    Input *GetInput();
 private:
     void Loop();
     void UpdateGameObjects();

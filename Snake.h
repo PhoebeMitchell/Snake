@@ -11,15 +11,17 @@
 #include "GameObject.h"
 
 class Rectangle;
+class Input;
 
 class Snake : public GameObject {
 public:
-    Snake(int size, int segmentSize, int xPos, int yPos, sf::Color color, float initialSpeed);
+    Snake(int size, int segmentSize, int xPos, int yPos, sf::Color color, float initialSpeed, Input *input);
     ~Snake();
 
     void Draw(Window *window) override;
     void Update() override;
     void SetDirection(sf::Vector2i direction);
+    std::vector<Rectangle *> *GetSegments();
 private:
     void Move();
 
@@ -28,6 +30,7 @@ private:
     float m_moveDelay;
     float m_lastMoveTime;
     sf::Vector2i m_direction;
+    Input *m_input;
 };
 
 

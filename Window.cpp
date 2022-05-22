@@ -3,21 +3,29 @@
 //
 
 #include "Window.h"
+#include "Input.h"
 #include <SFML/Graphics.hpp>
 
 Window::Window(int width, int height, std::string name) {
     m_renderWindow = new sf::RenderWindow(sf::VideoMode(width, height), name);
+    m_input = new Input;
 }
 
 Window::~Window() {
     delete m_renderWindow;
+    delete m_input;
 }
 
 void Window::PollEvents() {
     sf::Event event;
     while (m_renderWindow->pollEvent(event)) {
-        if (event.type == sf::Event::Closed) {
-            m_renderWindow->close();
+        switch (event.type) {
+            case sf::Event::Closed:
+                m_renderWindow->close();
+                break;
+            case sf::Event::KeyPressed:
+                m_input->HandleEvent(event);
+                break;
         }
     }
 
@@ -34,4 +42,8 @@ void Window::Draw(sf::Drawable *drawable) {
 
 void Window::Display() {
     m_renderWindow->display();
+}
+
+Input *Window::GetInput() {
+    return m_input;
 }
